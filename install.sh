@@ -6,5 +6,5 @@ sudo apt install tor onionshare
 sudo apt install chocolate-doom retroarch 
 sudo snap install gzdoom turbowarp-desktop
 git clone https://github.com/Akbar30Bill/DOOM_wads.git
-cp DOOM_wads /usr/share/games/doom
-cp DOOM_wads ~/snap/gzdoom/common/.config
+cp DOOM_wads/*.wad /usr/share/games/doom
+cp DOOM_wads/*.wad ~/snap/gzdoom/common/.config
